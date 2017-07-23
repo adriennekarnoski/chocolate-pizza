@@ -107,6 +107,19 @@ h1 {
   float: right;
 }
 
-.list {
+.section {
+  display: block;
+}
+.indent {
+  text-indent: 50px;
+  display: block;
+  text-align: justify;
+}
 
+p {
+  font-family: 'Slabo 27px', serif;
+}
+
+label {
+  font-family: 'Comic Sans MS'
 }
