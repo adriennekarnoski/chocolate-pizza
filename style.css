@@ -3,48 +3,42 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 html {
@@ -59,13 +53,11 @@ html {
 
 .logo img {
   display: inline;
-
 }
 
 .logo-slogan {
   diaply: inline;
 }
-
 
 nav ul {
   display: inline;
@@ -84,11 +76,12 @@ nav {
   height: 100px;
   border-bottom: #bfbfbf solid 8px;
 }
+
 h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-margin-bottom: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 5px;
 }
 
 .uppercase {
@@ -96,7 +89,7 @@ margin-bottom: 5px;
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 12px;
-color: #8c8c8c;
+  color: #8c8c8c;
 }
 
 .logo-name {
@@ -111,30 +104,29 @@ color: #8c8c8c;
   display: block;
   clear: both;
   margin-top: 50px;
-
 }
 
 .left {
   float: left;
   margin: 20px 0px;
-
 }
 
 .right {
   float: right;
   margin: 35px 0px;
-
 }
 
 .section {
   display: block;
 }
+
 .indent {
   text-indent: 50px;
   display: block;
   text-align: justify;
   margin-bottom: 25px;
   color: #8c8c8c;
+  line-height: 22px;
 }
 
 .author {
@@ -191,35 +183,34 @@ label {
   line-height: 30px;
 }
 
-input[type=checkbox]:checked + label.checked{
+input[type=checkbox]:checked+label.checked {
   text-decoration: line-through;
 }
 
 button {
   background: #d16a47;
   border: none;
-    color: white;
-    padding: 15px 38px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-weight: lighter;
-
+  color: white;
+  padding: 15px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 footer {
   position: relative;
-    content: " ";
-    display: block;
-    clear: both;
-    height: 100px;
-    border-top: #d9d9d9 solid 1px;
-    text-align: center;
-    color: #d9d9d9;
-padding: 35px;
+  content: " ";
+  display: block;
+  clear: both;
+  height: 100px;
+  border-top: #d9d9d9 solid 1px;
+  text-align: center;
+  color: #d9d9d9;
+  padding: 35px;
 }
 
 .footer-logo {
