@@ -123,3 +123,32 @@ p {
 label {
   font-family: 'Comic Sans MS'
 }
+
+.list-container {
+  position: relative;
+  display: block;
+}
+
+.list-right {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 115px;
+  width: 40%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.list-left {
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 60px;
+  width: 40%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+input[type=checkbox]:checked + label.checked{
+  text-decoration: line-through;
+}
