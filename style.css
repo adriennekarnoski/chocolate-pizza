@@ -54,29 +54,41 @@ html {
 
 .logo {
   float: left;
+  margin: 30px 2px;
 }
 
 .logo img {
   display: inline;
+
 }
 
 .logo-slogan {
   diaply: inline;
 }
 
+
 nav ul {
   display: inline;
   float: right;
+  margin: 40px 0px 40px 15px;
 }
-nav li {
+
+nav li, .print {
   display: inline;
 }
 
+nav {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 100px;
+  border-bottom: #bfbfbf solid 8px;
+}
 h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 36px;
-
+margin-bottom: 5px;
 }
 
 .uppercase {
@@ -84,6 +96,7 @@ h1 {
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 12px;
+color: #8c8c8c;
 }
 
 .logo-name {
@@ -93,18 +106,24 @@ h1 {
   display: inline;
 }
 
-.post-title {
+.post-container {
   content: " ";
   display: block;
   clear: both;
+  margin-top: 50px;
+
 }
 
 .left {
   float: left;
+  margin: 20px 0px;
+
 }
 
 .right {
   float: right;
+  margin: 35px 0px;
+
 }
 
 .section {
@@ -114,6 +133,28 @@ h1 {
   text-indent: 50px;
   display: block;
   text-align: justify;
+  margin-bottom: 25px;
+  color: #8c8c8c;
+}
+
+.author {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 100px;
+  border-top: #bfbfbf solid 8px;
+}
+
+.author-description {
+  margin-left: 20px;
+  width: 60%;
+  color: #8c8c8c;
+}
+
+.name {
+  font-weight: bolder;
+  margin-bottom: 10px;
+  display: block;
 }
 
 p {
@@ -127,6 +168,7 @@ label {
 .list-container {
   position: relative;
   display: block;
+  color: #737373;
 }
 
 .list-right {
@@ -151,4 +193,38 @@ label {
 
 input[type=checkbox]:checked + label.checked{
   text-decoration: line-through;
+}
+
+button {
+  background: #d16a47;
+  border: none;
+    color: white;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+
+}
+
+footer {
+  position: relative;
+    content: " ";
+    display: block;
+    clear: both;
+    height: 100px;
+    border-top: #d9d9d9 solid 1px;
+    text-align: center;
+    color: #d9d9d9;
+padding: 35px;
+}
+
+.footer-logo {
+  position: absolute;
+  top: -15px;
+  left: 47%;
+  display: inline-block;
 }
